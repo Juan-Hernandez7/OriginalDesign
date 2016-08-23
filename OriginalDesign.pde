@@ -2,19 +2,21 @@ void setup()
 {
   size(500,500);
 }
-void Head()
-{
- stroke(255,255,255)
- fill (0,0,0)
-  ellipse(250,350,100,100);
-}
-void Top Hat()
-{
-fill(255,255,255);
-	rect(250,300,);
-}
- void body()
- {
-  fill(250,250,250)
- ellipse(250,450,50,100)
+void draw()
+{ Head();
+  TopHat();
+  Eyes();
  }
+  void Head()
+{
+ ellipse(250,150,85,85);
+}
+  void TopHat()
+{  
+  rect(211,38,75,90);
+  stroke(0,0,0);
+}
+	void Eyes()
+	{
+	ellipse(240,150,10,10);
+}
